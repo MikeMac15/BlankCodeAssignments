@@ -1,2 +1,2 @@
 # BlankCodeAssignments
-Blank code assignments to help understanding code classes.
+Blank code assignments to help understanding classes.
