@@ -10,7 +10,7 @@
 Student class
 
 -- use this --
-<!-- public string GetAddress(bool? autho)
+public string GetAddress(bool? autho)
 {
     if (autho != null && autho == true)
     {
@@ -33,15 +33,15 @@ Student class
             return "You are not authorized to view this information";
         }
     }
-} -->
+}
 DisplayStudentInfo()
-    <!-- return $"{FirstName} {LastName} is in grade {Grade} and is in homeroom {HomeRoom}."; -->
+    return $"{FirstName} {LastName} is in grade {Grade} and is in homeroom {HomeRoom}.";
 
 DisplayParentInfo()
     if parent2name is null
-        <!-- return $"{Parent1Name} can be reached at {PhoneNumber} or {Email}."; -->
+        return $"{Parent1Name} can be reached at {PhoneNumber} or {Email}.";
     else
-    <!-- return $"{Parent1Name} and {Parent2Name} can be reached at {PhoneNumber} or {Email}."; -->
+    return $"{Parent1Name} and {Parent2Name} can be reached at {PhoneNumber} or {Email}.";
 DisplayLockerInfo()
-    <!-- return $"{FirstName} {LastName} has locker number {LockerNumber}."; -->
+    return $"{FirstName} {LastName} has locker number {LockerNumber}.";
 
